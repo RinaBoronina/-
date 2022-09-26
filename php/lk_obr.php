@@ -2,7 +2,7 @@
 header('Content-Type: text/html; charset=utf-8');
 session_start(); //Начало сессии
 //Подключение к БД
-$mysqli = mysqli_connect("localhost", "plxgonmk_0755", "0755", "plxgonmk_0755");
+$mysqli = mysqli_connect("localhost", "");
 if ($mysqli == false) {
     print("Error");
 } else {
